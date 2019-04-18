@@ -140,7 +140,7 @@ public class Login extends javax.swing.JFrame {
             ResultSet rs = stmt.executeQuery(sql);
             if(rs.next()){
                 JOptionPane.showMessageDialog(null,"Login successfully");
-                 new Register().setVisible(true);
+                 new Book().setVisible(true);
             }else{
                 JOptionPane.showMessageDialog(null,"Incorrect username or password");
             }
